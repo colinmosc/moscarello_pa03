@@ -22,7 +22,6 @@ public class CAI5 {
 		generateQuestionArgument(difficulty);
 		i++;
 		askQuestion(num1, num2, pType);
-		System.out.println(Math.round((double)num1 / (double)num2));
 		double answer = readResponse();
 		isAnswerCorrect(answer, num1, num2, pType);
 		}
